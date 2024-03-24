@@ -2,8 +2,8 @@
 
 
 import rospy
-from ar_week5_test.msg import cubic_traj_params,cubic_traj_coeffs
-from ar_week5_test.srv import compute_cubic_traj,compute_cubic_trajRequest
+from point_to_point.msg import cubic_traj_params,cubic_traj_coeffs
+from point_to_point.srv import compute_cubic_traj,compute_cubic_trajRequest
 
 
 def callback(data):
