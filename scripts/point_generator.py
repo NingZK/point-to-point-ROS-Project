@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 import random
 import rospy
-from ar_week5_test.msg import cubic_traj_params 
+from point_to_point.msg import cubic_traj_params 
 
 
 def talker():
