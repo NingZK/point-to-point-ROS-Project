@@ -2,7 +2,7 @@
 
 import rospy
 import numpy as np
-from ar_week5_test.srv import compute_cubic_traj,compute_cubic_trajResponse
+from point_to_point.srv import compute_cubic_traj,compute_cubic_trajResponse
 
 
 def handle_compute_four_values(data):
