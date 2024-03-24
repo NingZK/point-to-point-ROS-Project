@@ -3,7 +3,7 @@
 
 import rospy
 from std_msgs.msg import Float64
-from ar_week5_test.msg import cubic_traj_coeffs
+from point_to_point.msg import cubic_traj_coeffs
 
 
 def callback(data):
